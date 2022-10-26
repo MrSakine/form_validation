@@ -1,0 +1,161 @@
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    padding-bottom: 75px;
+    height: 100%;
+    min-height: 100%;
+}
+
+.input-error {
+    background-color: rgba(230, 169, 171, .5);
+}
+
+.error-sm {
+    color: #d14539;
+}
+
+.error {
+    color: #fff;
+    padding: 20px;
+    background: #d14539;
+}
+
+.success {
+    color: #fff;
+    padding: 20px;
+    background: #417c47;
+}
+
+.center {
+    text-align: center;
+}
+
+.header_nav {
+    background: linear-gradient(90deg, #fff 20%, rgba(0, 0, 0, .6) 60%);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.drop_menu_btn {
+    height: 60px;
+    width: 100%;
+    border: 1px solid #eee;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.drop_menu {
+    background: #42210b;
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+}
+
+.drop_menu_item {
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.section_inner {
+    padding: 50px 10% 30px;
+}
+
+.section_title {
+    font-family: 'Noto Serif JP', serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.contact_line {
+    height: 50px;
+    line-height: 50px;
+}
+
+.contact_sign {
+    width: 25%;
+    background: #beb9b7;
+    border: solid 1px #beb9b7;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.contact_input {
+    width: 75%;
+    border: 1px solid #302d2c;
+}
+
+td.contact_input.input-error {
+    background-color: rgba(230, 169, 171, .5);
+}
+
+.contact_content {
+    height: 100px;
+}
+
+.contact_input input,
+select,
+textarea {
+    border: none;
+    width: 99%;
+    outline: none;
+}
+
+.contact_input input,
+select {
+    height: 50px;
+}
+
+.contact_input textarea {
+    height: 100px;
+    resize: none;
+}
+
+.personal_information {
+    background: #e6e6e6;
+    padding: 10px;
+    height: 100px;
+    overflow: scroll;
+    margin-bottom: 20px;
+}
+
+.contact_btn_area {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.contact_btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact_btn+.contact_btn {
+    margin-left: 10px;
+}
+
+.submit_btn {
+    background: #9852a5;
+    color: #fff;
+}
+
+.reset_btn {
+    background: #e6e6e6;
+}

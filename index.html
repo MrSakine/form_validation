@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>DIC cafe</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/app.js" defer></script>
+    <script type="text/javascript" src="js/drop_menu.js" defer></script>
+</head>
+
+<body>
+    <nav class="header_nav">
+        <div>
+            <button class="drop_menu_btn" id="drop_menu_btn">menu</button>
+            <ul class="drop_menu" id="drop_menu">
+                <a href="#" class="drop_menu_item">
+                    <li>Home</li>
+                </a>
+                <a href="#" class="drop_menu_item">
+                    <li>Menu</li>
+                </a>
+                <a href="#" class="drop_menu_item">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="section_inner">
+        <div class="section_title">
+            <h1>CONTACT</h1>
+            <p>Inquiry</p>
+        </div>
+        <form action="#" method="POST" id="form">
+            <table class="contact">
+                <tr class="contact_line">
+                    <td class="contact_sign"><label for="name">Name</label></td>
+                    <td class="contact_input"><input type="text" name="name" id="name"></td>
+                </tr>
+                <tr class="contact_line">
+                    <td class="contact_sign"><label for="email">Email</label></td>
+                    <td class="contact_input"><input type="email" name="email" id="email" required></td>
+                </tr>
+                <tr class="contact_line">
+                    <td class="contact_sign"><label for="email_confirm">Confirm (EMAIL)</label></td>
+                    <td class="contact_input"><input type="email" name="email_confirm" id="email_confirm" autocomplete="off" required></td>
+                </tr>
+                <tr class="contact_content">
+                    <td class="contact_sign"><label for="content">Content</label></td>
+                    <td class="contact_input"><textarea name="content" id="content"></textarea></td>
+                </tr>
+            </table>
+            <div class="contact_btn_area">
+                <button type="reset" class="contact_btn reset_btn">Reset</button>
+                <button type="submit" class="contact_btn submit_btn">Send</button>
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>
